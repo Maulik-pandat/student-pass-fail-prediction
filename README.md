@@ -1,86 +1,119 @@
+ STUDENT PASS FAIL PREDICTION PROJECT
 
-STUDENT PASS FAIL PREDICTION PROJECT
+ ABOUT THIS PROJECT
+This project predicts whether a student will PASS or FAIL using Machine Learning.
 
-ABOUT THIS PROJECT
-This project is about predicting whether a student will PASS or FAIL.
-The prediction is done using Machine Learning based on student data like study hours, attendance and previous marks.
+The prediction is based on:
+- Study Hours
+- Attendance
+- Previous Marks
 
-I trained multiple machine learning models and compared their performance to understand which model works better.
+Multiple machine learning models were trained and compared to find the best performing model.
 
+---
 
-DATASET DETAILS
-Dataset file name: project1.csv
+# DATASET DETAILS
 
-Columns used in dataset:
-Hours        -> Number of study hours
-Attendance  -> Attendance percentage
-PrevMarks   -> Previous exam marks
-Result      -> Pass or Fail (target column)
+**Dataset File:** `project1.csv`
 
+# Columns Used
+- `Hours` → Number of study hours
+- `Attendance` → Attendance percentage
+- `PrevMarks` → Previous exam marks
+- `Result` → Pass or Fail (Target Column)
 
-TECHNOLOGIES USED
-Python
-Pandas
-NumPy
-Scikit-learn
-Matplotlib
+---
 
+# TECHNOLOGIES USED
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
 
+---
 
-MACHINE LEARNING MODELS USED
-Logistic Regression
-Support Vector Machine (SVM)
-Decision Tree
-K-Nearest Neighbors (KNN)
+# MACHINE LEARNING MODELS USED
+- Logistic Regression
+- Support Vector Machine (SVM)
+- Decision Tree
+- K-Nearest Neighbors (KNN)
 
+---
 
+# PROJECT WORKFLOW
 
-PROJECT WORKFLOW
-
-1. Loaded the dataset using pandas
+1. Loaded dataset using pandas
 2. Converted pass/fail values into numerical form
-3. Selected important features and target column
+3. Selected features and target column
 4. Split data into training and testing sets
-5. Applied feature scaling using StandardScaler
+5. Applied feature scaling using `StandardScaler`
 6. Trained multiple machine learning models
-7. Evaluated models using accuracy, confusion matrix and classification report
+7. Evaluated models using:
+   - Accuracy Score
+   - Confusion Matrix
+   - Classification Report
 8. Compared model performance using a bar graph
-9. Took user input to predict student result
+9. Predicted student result using user input
 
+---
 
+## MODEL ACCURACY GRAPH
 
-MODEL ACCURACY GRAPH
-The following graph shows accuracy comparison of different models:
+The graph below compares the accuracy of different machine learning models.
 
-model_accuracy.png
+`model_accuracy.png`
 
+---
 
+# HOW TO RUN THIS PROJECT
 
-HOW TO RUN THIS PROJECT
+### 1. Clone the Repository
+```bash
+git clone <your-github-repo-link>
+```
 
-1. Download or clone this repository
-2. Install required libraries using:
-   pip install pandas numpy scikit-learn matplotlib
-3. Run the Python file:
-   python new_project.py
-4. Enter student details when asked
+# 2. Install Required Libraries
+```bash
+pip install pandas numpy scikit-learn matplotlib
+```
 
-OUTPUT
-The project shows:
+# 3. Run the Project
+```bash
+python new_project.py
+```
 
-* Accuracy of each model
-* Confusion matrix and classification report
-* Pass or Fail prediction for a student
+# 4. Enter Student Details
+Provide:
+- Study Hours
+- Attendance
+- Previous Marks
 
-WHAT I LEARNED FROM THIS PROJECT
-Data preprocessing
-Feature scaling
-Training multiple ML models
-Model evaluation
-Data visualization
-Building a real-world ML project
+---
 
+# OUTPUT
 
-AUTHOR
-Maulik Bhardwaj
+The project displays:
+- Accuracy of each model
+- Confusion Matrix
+- Classification Report
+- PASS or FAIL prediction
+
+---
+
+# WHAT I LEARNED FROM THIS PROJECT
+- Data Preprocessing
+- Feature Scaling
+- Machine Learning Model Training
+- Model Evaluation
+- Data Visualization
+- Building a Real-World ML Project
+
+---
+
+## AUTHOR 
+
+MAULIK BHARDWAJ 
+**Maulik Bhardwaj**
+
 Python | Data Science & Machine Learning Learner
