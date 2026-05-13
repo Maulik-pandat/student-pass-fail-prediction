@@ -1,4 +1,4 @@
- STUDENT PASS FAIL PREDICTION PROJECT
+# STUDENT PASS FAIL PREDICTION PROJECT
 
  ABOUT THIS PROJECT
 This project predicts whether a student will PASS or FAIL using Machine Learning.
